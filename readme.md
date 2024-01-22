@@ -15,7 +15,7 @@ The Bhagavad Gita Shlok Project is a web application that leverages the Bhagavad
 
 ## Demo
 
-[link_to_live_project_webpage](https://ankursharma1302.github.io/BhagavadGitaShlok/))
+[link_to_live_project_webpage](https://ankursharma1302.github.io/BhagavadGitaShlok/)
 
 ## Technologies Used
 
