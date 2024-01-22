@@ -45,3 +45,6 @@ The Bhagavad Gita Shlok Project is a web application that leverages the Bhagavad
 
 ## API Integration
 The Bhagavad Gita Shlok Project utilizes the Bhagavad Gita API to fetch shlokas dynamically. No API key is required for accessing the public API.
+
+## Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests to help improve this Bhagavad Gita Shlok Webpage.
