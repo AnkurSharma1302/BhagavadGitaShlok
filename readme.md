@@ -1,4 +1,4 @@
-# Bhagavad Gita Shlok Project
+# Bhagavad Gita Shlok 
 
 ![Bhagavad Gita](./pcPic.png)
 
@@ -29,11 +29,11 @@ The Bhagavad Gita Shlok Project is a web application that leverages the Bhagavad
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/bhagavad-gita-shlok-project.git
+   git clone https://github.com/AnkurSharma1302/BhagavadGitaShlok.git
     ```
 2. Change into the project directory.
 ```bash
-    cd bhagavad-gita-shlok-project
+    cd BhagavadGitaShlok
 ```
 3. Open the`index.html` file in your browser.
 
