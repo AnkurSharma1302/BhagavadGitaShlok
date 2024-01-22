@@ -281,6 +281,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 1rem;
+    max-width: 800px;
 }
 
 .shlok-sanskrit,
