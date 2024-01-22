@@ -1,6 +1,6 @@
 # Bhagavad Gita Shlok 
 
-![Bhagavad Gita](./pcPic.png)
+![Bhagavad Gita](./pcPic2.png)
 
 ## Overview
 
