@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --hue: 30;
+    --primary: hsl(var(--hue), 100%, 50%);
+    --primary-light: hsl(var(--hue), 100%, 70%);
+    --primary-super-light: hsl(var(--hue), 100%, 96%);
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 0px 2px 3px var(--primary-light);
+}
+
+.card-container h1 {
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin: 1rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    box-shadow: 0 2px 4px var(--primary-super-light);
+}
+
+.gita-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gita-form input {
+    width: 35%;
+    background-color: var(--primary-super-light);
+    padding: 1rem;
+    outline: none;
+    font-size: 1rem;
+    margin: 0.5rem;
+    border: none;
+    box-shadow: 0 3px 4px var(--primary-light);
+}
+
+.btn-gita {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    /* margin-top: 1rem; */
+    font-weight: bold;
+    background-color: var(--primary-light);
+    border-color: var(--primary-super-light);
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0px 0px var(--primary-super-light);
+}
+
+.gita-shlok,
+.gita-translation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    max-width: 845px;
+}
+
+.shlok-sanskrit,
+.shlok-english,
+.hindi-translation,
+.english-translation {
+    width: 45%;
+    padding: 1rem;
+    box-shadow: 0 3px 5px var(--primary-light);
+    margin: 1rem 0;
+    background-color: var(--primary-super-light);
+    align-self: normal;
+}
+
+.shlok-sanskrit h2,
+.shlok-english h2,
+.hindi-translation h2,
+.english-translation h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.09rem;
+    font-weight: bold;
+}
+
+.shlok-common {
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 900px) {
+    .gita-form input {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .gita-form input {
+        width: 100%;
+    }
+
+    .btn-gita {
+        width: 100%;
+    }
+    .shlok-sanskrit,
+.shlok-english,
+.hindi-translation,
+.english-translation {
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 3px 5px var(--primary-light);
+    margin: 1rem 0;
+    background-color: var(--primary-super-light);
+}
+
+}
