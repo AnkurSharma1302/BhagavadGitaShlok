@@ -277,10 +277,11 @@ body {
 .gita-shlok,
 .gita-translation {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-around;
     padding: 1rem;
+    /* border: 2px solid red; */
     max-width: 800px;
 }
 
