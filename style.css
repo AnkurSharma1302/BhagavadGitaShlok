@@ -287,11 +287,12 @@ body {
 .shlok-english,
 .hindi-translation,
 .english-translation {
-    width: 100%;
+    width: 45%;
     padding: 1rem;
     box-shadow: 0 3px 5px var(--primary-light);
     margin: 1rem 0;
     background-color: var(--primary-super-light);
+    align-self: normal;
 }
 
 .shlok-sanskrit h2,
@@ -338,6 +339,16 @@ body {
     .btn-gita {
         width: 100%;
     }
+    .shlok-sanskrit,
+    .shlok-english,
+    .hindi-translation,
+    .english-translation {
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 3px 5px var(--primary-light);
+    margin: 1rem 0;
+    background-color: var(--primary-super-light);
+}
 }
 
 
